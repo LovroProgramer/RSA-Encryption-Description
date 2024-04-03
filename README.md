@@ -19,12 +19,12 @@ To set up this tool, follow these steps:
 
 2. Navigate to the project directory.
 
-    $ cd RSA-Encryption-Description
+        $ cd RSA-Encryption-Description
 
 
     3. Install the required packages.
 
-$ pip install -r requirements.txt
+        $ pip install -r requirements.txt
 
 
 
