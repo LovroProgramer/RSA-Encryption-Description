@@ -22,7 +22,7 @@ To set up this tool, follow these steps:
         $ cd RSA-Encryption-Description
 
 
-    3. Install the required packages.
+3. Install the required packages.
 
         $ pip install -r requirements.txt
 
