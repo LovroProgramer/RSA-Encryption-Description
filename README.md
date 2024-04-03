@@ -13,12 +13,15 @@ This simple RSA encryption and decryption tool is built with Python. It allows u
 To set up this tool, follow these steps:
 
 1. Clone this repository to your local machine.
+
 $ git clone https://github.com/LovroProgramer/RSA-Encryption-Description.git
 
 2. Navigate to the project directory.
+
 $ cd RSA-Encryption-Description
 
 3. Install the required packages.
+
 $ pip install -r requirements.txt
 
 
@@ -28,10 +31,12 @@ Below are the commands to use the RSA Encryption/Decryption Tool.
 
 ### Generate Keys
 To generate a new RSA key pair:
+
 $ ./encripter.py --generate-key
 
 
 To encrypt a text file named `exemple.txt` using a public key:
+
 $ ./encripter.py --encrypt exemple.txt --public-key path/to/publicKey.pem
 
 ### Decrypt a Message
