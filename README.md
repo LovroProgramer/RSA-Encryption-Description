@@ -37,7 +37,7 @@ To generate a new RSA key pair:
     $ ./encripter.py --generate-key
 
 
-
+## Encrypt a Message
 To encrypt a text file named `exemple.txt` using a public key:
 
     $ ./encripter.py --encrypt exemple.txt --public-key path/to/publicKey.pem
