@@ -1,3 +1,5 @@
-pip install rsa
-pip install cryptography
-##  Downloading cryptography-42.0.5-cp39-abi3-manylinux_2_28_x86_64.whl.metadata (5.3 kB)
+cffi==1.16.0
+cryptography==42.0.5
+pyasn1==0.6.0
+pycparser==2.21
+rsa==4.9
