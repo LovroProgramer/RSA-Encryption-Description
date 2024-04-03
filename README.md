@@ -9,7 +9,7 @@ This simple RSA encryption and decryption tool is built with Python. It allows u
 - Decrypt text files using the RSA private key.
 - Command-line interface for easy operation.
 
-## Installation
+### Installation
 To set up this tool, follow these steps:
 
 1. Clone this repository to your local machine.
