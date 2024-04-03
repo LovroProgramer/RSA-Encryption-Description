@@ -14,13 +14,15 @@ To set up this tool, follow these steps:
 
 1. Clone this repository to your local machine.
 
-$ git clone https://github.com/LovroProgramer/RSA-Encryption-Description.git
+    $ git clone https://github.com/LovroProgramer/RSA-Encryption-Description.git
+
 
 2. Navigate to the project directory.
 
-$ cd RSA-Encryption-Description
+    $ cd RSA-Encryption-Description
 
-3. Install the required packages.
+
+    3. Install the required packages.
 
 $ pip install -r requirements.txt
 
@@ -32,17 +34,19 @@ Below are the commands to use the RSA Encryption/Decryption Tool.
 ### Generate Keys
 To generate a new RSA key pair:
 
-$ ./encripter.py --generate-key
+    $ ./encripter.py --generate-key
+
 
 
 To encrypt a text file named `exemple.txt` using a public key:
 
-$ ./encripter.py --encrypt exemple.txt --public-key path/to/publicKey.pem
+    $ ./encripter.py --encrypt exemple.txt --public-key path/to/publicKey.pem
+
 
 ### Decrypt a Message
 To decrypt an encrypted file named `exemple.txt.encrypted` using a private key:
 
-$ ./encripter.py --decrypt exemple.txt.encrypted --private-key path/to/privateKey.pem --password YOUR_PRIVATE_KEY_PASSWORD
+    $ ./encripter.py --decrypt exemple.txt.encrypted --private-key path/to/privateKey.pem --password YOUR_PRIVATE_KEY_PASSWORD
 
 
 
